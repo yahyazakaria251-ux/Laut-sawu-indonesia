@@ -1,74 +1,98 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello, World!</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-      <h1 class="title">Hello World!</h1>
-      <p id="currentTime"></p><!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <title>Laut Sawu - Indonesia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
             margin: 0;
             background: #f0f8ff;
             color: #333;
-            line-height: 1.6;
+            line-height: 1.7;
         }
+
         header {
-            background: linear-gradient(135deg, #0077b6, #00b4d8);
+            background:
+                linear-gradient(rgba(0, 70, 140, 0.65), rgba(0, 70, 140, 0.65)),
+                url("https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/ykan/oceans/LifuleoNTT.jpg?wid=1600");
+            background-size: cover;
+            background-position: center;
             color: white;
-            padding: 30px 15px;
+            padding: 90px 20px;
             text-align: center;
         }
+
         header h1 {
             margin: 0;
-            font-size: 2.2em;
+            font-size: 3em;
         }
+
         header p {
-            margin-top: 10px;
-            font-size: 1.1em;
+            margin-top: 12px;
+            font-size: 1.2em;
         }
+
         main {
-            max-width: 900px;
+            max-width: 960px;
             margin: auto;
             padding: 20px;
         }
+
         section {
             background: white;
-            margin-bottom: 20px;
-            padding: 20px;
-            border-radius: 10px;
+            margin-bottom: 22px;
+            padding: 22px;
+            border-radius: 14px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.08);
         }
+
         section h2 {
             color: #0077b6;
             margin-top: 0;
         }
+
         ul {
-            padding-left: 20px;
+            padding-left: 22px;
         }
+
         li {
             margin-bottom: 8px;
         }
+
+        .highlight {
+            background: #e0f7fa;
+            border-left: 6px solid #00b4d8;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 6px;
+        }
+
+        .image-box {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .image-box img {
+            max-width: 100%;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .image-box p {
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 8px;
+        }
+
         footer {
             background: #023e8a;
             color: white;
             text-align: center;
-            padding: 15px;
+            padding: 16px;
             font-size: 0.9em;
-        }
-        .highlight {
-            background: #e0f7fa;
-            border-left: 5px solid #00b4d8;
-            padding: 15px;
-            margin: 15px 0;
-            border-radius: 5px;
         }
     </style>
 </head>
@@ -76,75 +100,94 @@
 
 <header>
     <h1>Laut Sawu</h1>
-    <p>Kekayaan Alam dan Keanekaragaman Hayati Indonesia</p>
+    <p>Kawasan Laut Penting dengan Kekayaan Hayati Tinggi di Indonesia</p>
 </header>
 
 <main>
 
+    <div class="image-box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp259OHeYjJ6A_cKl5C0lHd9mollS9uOGhWw&s" alt="Peta Laut Sawu">
+        <p>Peta wilayah Laut Sawu di Provinsi Nusa Tenggara Timur</p>
+    </div>
+
     <section>
-        <h2>📍 Informasi Umum</h2>
+        <h2>📍 Letak Geografis</h2>
         <p>
-            <strong>Laut Sawu</strong> adalah laut yang terletak di Provinsi 
-            <strong>Nusa Tenggara Timur (NTT)</strong>, Indonesia. Laut ini berada di antara 
+            <strong>Laut Sawu</strong> adalah perairan laut yang terletak di bagian selatan 
+            Provinsi <strong>Nusa Tenggara Timur (NTT)</strong>. Laut ini dikelilingi oleh 
             Pulau Flores, Pulau Sumba, Pulau Timor, Pulau Rote, dan Pulau Sabu.
         </p>
         <p>
-            Dalam bahasa internasional, Laut Sawu dikenal dengan nama 
-            <em>Savu Sea</em>.
+            Secara internasional, Laut Sawu dikenal dengan nama <em>Savu Sea</em>.
         </p>
     </section>
 
     <section>
-        <h2>🌊 Kondisi Alam</h2>
+        <h2>🌊 Kondisi Alam dan Arus Laut</h2>
+        <p>
+            Laut Sawu memiliki kondisi laut yang dinamis dan dipengaruhi oleh 
+            <strong>Arus Lintas Indonesia (ARLINDO)</strong>, yaitu arus laut besar yang 
+            mengalir dari Samudra Pasifik ke Samudra Hindia.
+        </p>
         <ul>
-            <li>Memiliki arus laut yang kuat</li>
-            <li>Dilalui Arus Lintas Indonesia (ARLINDO)</li>
-            <li>Perairannya relatif jernih dan kaya nutrisi</li>
+            <li>Arus laut kuat dan membawa banyak nutrisi</li>
+            <li>Perairan relatif jernih</li>
             <li>Kedalaman laut bervariasi dari dangkal hingga sangat dalam</li>
         </ul>
     </section>
 
     <section>
-        <h2>🐋 Kekayaan Hayati</h2>
+        <h2>🐋 Keanekaragaman Hayati</h2>
         <p>
-            Laut Sawu dikenal sebagai salah satu laut dengan keanekaragaman hayati tertinggi di Indonesia.
+            Laut Sawu dikenal sebagai salah satu kawasan laut dengan 
+            <strong>keanekaragaman hayati tertinggi di Indonesia</strong>.
         </p>
         <ul>
             <li>Paus biru</li>
             <li>Paus sperma</li>
             <li>Lumba-lumba</li>
             <li>Penyu laut</li>
-            <li>Berbagai jenis ikan laut</li>
-            <li>Terumbu karang yang luas</li>
+            <li>Ikan karang</li>
+            <li>Terumbu karang dan padang lamun</li>
         </ul>
 
         <div class="highlight">
             <strong>Fakta Menarik:</strong><br>
-            Laut Sawu disebut sebagai <strong>jalur migrasi paus Indonesia</strong> karena sering dilalui berbagai jenis paus.
+            Laut Sawu disebut sebagai <strong>jalur migrasi paus Indonesia</strong> karena 
+            sering dilalui berbagai jenis paus setiap tahun.
         </div>
     </section>
 
     <section>
         <h2>🎣 Sumber Daya Perikanan</h2>
+        <p>
+            Laut Sawu merupakan sumber perikanan penting bagi masyarakat pesisir.
+        </p>
         <ul>
-            <li>Ikan tuna</li>
+            <li>Tuna</li>
             <li>Cakalang</li>
             <li>Tongkol</li>
             <li>Ikan karang</li>
         </ul>
-        <p>
-            Kekayaan perikanan ini menjadi sumber mata pencaharian utama bagi nelayan di wilayah NTT.
-        </p>
+    </section>
+
+    <section>
+        <h2>🏝️ Potensi Wisata Bahari</h2>
+        <ul>
+            <li>Wisata snorkeling dan diving</li>
+            <li>Wisata melihat paus dan lumba-lumba</li>
+            <li>Pantai dan pulau kecil yang masih alami</li>
+        </ul>
     </section>
 
     <section>
         <h2>🌱 Kawasan Konservasi</h2>
         <p>
-            Karena kekayaan alamnya, Laut Sawu ditetapkan sebagai 
+            Untuk melindungi kekayaan alamnya, Laut Sawu ditetapkan sebagai 
             <strong>Kawasan Konservasi Perairan Nasional</strong>.
         </p>
         <p>
-            Tujuan konservasi ini adalah untuk melindungi:
+            Tujuannya adalah menjaga kelestarian:
         </p>
         <ul>
             <li>Mamalia laut</li>
@@ -154,17 +197,7 @@
     </section>
 
     <section>
-        <h2>🚢 Manfaat bagi Masyarakat</h2>
-        <ul>
-            <li>Sumber penghidupan nelayan</li>
-            <li>Jalur transportasi laut antar pulau</li>
-            <li>Potensi wisata bahari</li>
-            <li>Mendukung ekonomi masyarakat pesisir</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>⚠️ Ancaman & Tantangan</h2>
+        <h2>⚠️ Ancaman dan Tantangan</h2>
         <ul>
             <li>Penangkapan ikan berlebihan</li>
             <li>Pencemaran laut</li>
@@ -174,28 +207,32 @@
     </section>
 
     <section>
+        <h2>🌍 Upaya Pelestarian</h2>
+        <ul>
+            <li>Pengelolaan kawasan konservasi</li>
+            <li>Edukasi masyarakat pesisir</li>
+            <li>Penangkapan ikan ramah lingkungan</li>
+        </ul>
+    </section>
+
+    <section>
         <h2>✨ Kesimpulan</h2>
         <p>
-            Laut Sawu merupakan laut yang sangat penting bagi Indonesia karena 
-            kekayaan hayati, fungsi ekologis, dan manfaatnya bagi kehidupan manusia. 
-            Oleh karena itu, menjaga kelestarian Laut Sawu adalah tanggung jawab bersama.
+            Laut Sawu adalah kawasan laut yang sangat penting bagi Indonesia 
+            karena kekayaan hayati, manfaat ekonomi, dan perannya bagi keseimbangan ekosistem laut. 
+            Oleh karena itu, kelestarian Laut Sawu harus dijaga bersama.
         </p>
     </section>
 
 </main>
 
 <footer>
-    <p>© <span id="year"></span> | yahyazakaria251 | Laut sawu Indonesia</p>
+    <p>© <span id="year"></span> | yahyazakaria251 | Laut Sawu Indonesia</p>
 </footer>
 
 <script>
     document.getElementById("year").textContent = new Date().getFullYear();
 </script>
 
-
 </body>
-</html>
-
-      <script src="script.js"></script>
-  </body>
 </html>
